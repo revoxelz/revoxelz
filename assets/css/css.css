@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+/*skroll*/
+::-webkit-scrollbar {
+  width: .5vw;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+*, html, body {
+  margin: 0;
+  padding:0;
+  outline: 0;
+}
+
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  background: #111;
+  overflow-x: hidden;
+}
+
+a, span{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  position: fixed;
+  display: block;
+  left: 5%;
+  top: 5%;
+  color: white;
+  z-index: 100;
+  width: auto;
+}
+
+nav img{
+  position: absolute;
+  display: block;
+  height: 5vh;
+  left: 0vh;
+  text-align: left;
+  width: 5vh;
+}
+
+.rtb{
+  position: fixed;
+  display: block;
+  right: 5vw;
+  top: 5%;
+  color: white;
+  z-index: 100;
+}
+
+worx{
+  position: fixed;
+  display: block;
+  left: 50vw;
+  top: 5vh;
+  color: white;
+  z-index: 100;
+}
+
+.r{
+  position: fixed;
+  bottom: 5vh;
+  right: 5VW;
+  text-align: center;
+  z-index: 200;
+}
+
+.b img{
+
+  height: 3vh;
+  width: 3vh;
+  margin: 3vh;
+  -webkit-mask-image:none;
+      mask-image: none;
+}
+
+.l{
+  position: fixed;
+  bottom: 5vh;
+  left: 5vw;
+  text-align: center;
+  z-index: 200;
+  color: white;
+}
+
+h1{
+  position: absolute;
+  display: block;
+  left: 0vw;
+  top: 40vh;
+  color: #fff;
+  font-size: 2.5vw;
+  letter-spacing: 15px;
+  cursor: pointer;
+  width: 100vw;
+  margin: 0 auto;
+  margin-top: 1vh;
+  user-select: none;
+  padding: 0;
+  text-align: center;
+  z-index: 100;
+}
+
+img{
+  position: relative;
+  display: block;
+  width: 100vw;
+  -webkit-mask-image:-webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+div.b1{
+  position: relative;
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../media/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 25%;
+  -webkit-mask-image:-webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  margin: 0;
+  padding: 0;
+}
+
+info a, info span{
+
+}
+
+con{
+  co
+  border-radius: 1000px;
+}
+
+span.who{
+  position: relative;
+  display: block;
+  font-family: 'Rajdhani', sans-serif;
+  padding: 25vh 25vh 5vh;  
+}
+
+brutales{
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 1vh 15vw 5vh;
+}
+
+brutales img{
+  display: inline-block;
+  position: relative;
+  height: 25vh;
+  width: 25vh;
+  border-radius: 100000px;
+  margin: 5vh;
+  text-align: center;
+}
+
+txt{
+  margin: 15%;
+  position: relative;display: block;
+}
+
+h2{
+  color: white;
+}
+
+.up{
+  top: 5vh;
+}
+
+con{
+  height: 50px;
+  font-family: Rajdhani;
+  font-weight: bolder;
+  user-select: none;
+}
+
+.bo{
+  height: auto;
+  border-radius: 100px;
+  border: 1px solid white;
+  padding: 5px 25px;
+  cursor: pointer;
+}
+
+.bo:hover{
+  background-color: white;
+  color: black;
+}
+
+.to a:hover{
+  background: white;
+  color: black;
+
+}
+
+
+/*WHO*/
+
+bx{
+  position:relative;
+  display: block;
+}
+
+
+@media (max-width: 850px) and (orientation: portrait) { 
+  body{
+    user-select: none;
+  }
+
+  nav{
+    font-size: 10vw;
+  }
+
+}
+
