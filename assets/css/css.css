@@ -134,7 +134,37 @@ div.b1{
   display: block;
   height: 100vh;
   width: 100vw;
-  background-image: url("../../media/bg.png");
+  background-image: url("../../media/koala.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 25%;
+  -webkit-mask-image:-webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  margin: 0;
+  padding: 0;
+}
+
+div.b2{
+  position: relative;
+  display: block;
+  height: 100vw;
+  width: 100vw;
+  background-image: url("../../media/SIF.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 100%;
+  -webkit-mask-image:-webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  margin: 0;
+  padding: 0;
+}
+
+div.b3{
+  position: relative;
+  display: block;
+  height: 100vw;
+  width: 100vw;
+  background-image: url("../../media/tob.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 25%;
